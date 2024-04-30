@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    height: 100vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1.2fr 1.2fr 1.2fr;
+    grid-template-rows: 1fr 3fr 3fr 1fr;
+    grid-template-areas: "header header header" "pic1 pic2 pic3" "pic4 pic5 pic6" "footer footer footer";
+    height: 100vh;
+    margin: 2em;
+
+}
+
+header {
+    grid-area: header;
+    background: rgb(52, 164, 192);
+}
+
+
+section.pic1 {
+    grid-area: pic1;
+    background: url(https://media1.tenor.com/m/3f87UxkcPREAAAAC/troll-troll-face.gif) no-repeat;
+    background-size: contain;
+}
+
+
+section.pic2 {
+    grid-area: pic2;
+    Background: url(https://imag.malavida.com/mvimgbig/download-fs/lego-batman-6295-2.jpg);
+    background-size: contain;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+
+section.pic3 {
+    grid-area: pic3;
+    Background: url(https://yt3.ggpht.com/a/AATXAJySqwLhZymUwzs1jhb7z_i4_df1yEEbJlveKg=s900-c-k-c0xffffffff-no-rj-mo);
+    background-size: contain;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    Position: relative;
+}
+
+
+section.pic4 {
+    grid-area: pic4;
+    Background:url(https://cdn.mos.cms.futurecdn.net/7e186ce3aa6bfb53f2cb27e084dd0759.jpg);
+    background-size: contain;
+    object-fit: cover;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+
+section.pic5 {
+    grid-area: pic5;
+    Background: url(https://2.bp.blogspot.com/-CoWZEHvIGe8/UBABBzykrrI/AAAAAAAAAO0/ppg2ykXDYXY/s1600/Ocean-life-wallpapers-marine-life-on-the-seabed-like-fish-plants-animals-hd-wallpaper-13.jpg);
+    background-size: contain;
+    object-fit: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+
+section.pic6 {
+    grid-area: pic6;
+    Background: url(https://cdn2.unrealengine.com/Fortnite/home-v2/ASPOT_Image-3840x2308-35330d4be45373960682e7ef88da5b4c2d8e790f.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+
+footer {
+    grid-area: footer;
+    Background: #2d17aca8
+}
+
+
+
+
+
+
+
+
+
